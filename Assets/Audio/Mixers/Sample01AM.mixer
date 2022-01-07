@@ -138,6 +138,25 @@ AudioMixerGroupController:
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
+--- !u!245 &-4976654256201776022
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Snapshot - Copy
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 663a7ee32317c9142950b4f16ecd2000
+  m_FloatValues:
+    3fd1a560d005cb54eb8aa4613e85052a: -10000
+    c7f565d2059d0774198a6a34bd3c4a6f: -10
+    2fb702f460c994f45946043ee906652a: 0
+    84c667060701724429a4f445fe82887c: -10000
+    93ae7886370dd414586018f55528d6ad: -30
+    3de7c6f810498d040bdb4224075474f8: 0
+    8e49f339588c2734eb23df701d3d950a: -30
+    59c5cbefe1921b847bcd849da86228ed: -10
+  m_TransitionOverrides: {}
 --- !u!244 &-4083126286584510753
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -180,6 +199,24 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: -8757154717944720470}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!245 &-2120961486441302466
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grassland
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: c47c3e97bb4ab9c4c96fa60124d2e3db
+  m_FloatValues:
+    3fd1a560d005cb54eb8aa4613e85052a: -10000
+    c7f565d2059d0774198a6a34bd3c4a6f: -5
+    2fb702f460c994f45946043ee906652a: 0
+    84c667060701724429a4f445fe82887c: -10000
+    93ae7886370dd414586018f55528d6ad: -30
+    3de7c6f810498d040bdb4224075474f8: 0
+    8e49f339588c2734eb23df701d3d950a: -30
+  m_TransitionOverrides: {}
 --- !u!244 &-904637603634606640
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -233,7 +270,9 @@ AudioMixerController:
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
-  m_StartSnapshot: {fileID: 24500006}
+  - {fileID: -4976654256201776022}
+  - {fileID: -2120961486441302466}
+  m_StartSnapshot: {fileID: -2120961486441302466}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
@@ -249,7 +288,7 @@ AudioMixerController:
     - 912551b2cc11d7a4bb4ffbb2b71862a2
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 24500006}
+  m_TargetSnapshot: {fileID: -2120961486441302466}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -293,7 +332,7 @@ AudioMixerSnapshotController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Snapshot
+  m_Name: Cave
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 949f04a837ca83b43a6ae982a71b7186
   m_FloatValues:

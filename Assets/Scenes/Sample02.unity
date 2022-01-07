@@ -979,11 +979,9 @@ MonoBehaviour:
   menuToggle: {fileID: 1508339832}
   fieldTransitionTime: 0
   menuTransitionTime: 1
-  grasslandSnapshot: {fileID: -2120961486441302466, guid: fbc943df5dcf4ea4699e76bc51e9a5d2,
-    type: 2}
-  caveSnapshot: {fileID: 24500006, guid: fbc943df5dcf4ea4699e76bc51e9a5d2, type: 2}
-  menuSnapshot: {fileID: -4976654256201776022, guid: fbc943df5dcf4ea4699e76bc51e9a5d2,
-    type: 2}
+  grasslandSnapshot: {fileID: 0}
+  caveSnapshot: {fileID: 0}
+  menuSnapshot: {fileID: 0}
 --- !u!4 &711139434
 Transform:
   m_ObjectHideFlags: 0
@@ -1284,18 +1282,7 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 711139433}
-        m_MethodName: ChangedFieldToggle
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_IsOn: 0
 --- !u!1 &943761609
 GameObject:
@@ -1871,18 +1858,7 @@ MonoBehaviour:
   m_Group: {fileID: 0}
   onValueChanged:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 711139433}
-        m_MethodName: ChangedMenuToggle
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   m_IsOn: 0
 --- !u!1 &1529384536
 GameObject:
